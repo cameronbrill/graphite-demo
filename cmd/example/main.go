@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	for i := range []string{} {
-		print(i)
+	for range []string{} {
+		print("goodbye, earth")
 	}
 }
