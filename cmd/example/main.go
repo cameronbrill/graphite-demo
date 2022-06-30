@@ -1,5 +1,7 @@
 package main
 
 func main() {
-	print("howdy world")
+	for i := range []string{} {
+		print(i)
+	}
 }
