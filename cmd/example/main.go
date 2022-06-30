@@ -1,7 +1,9 @@
 package main
 
+import strings "github.com/cameronbrill/graphite-demo/strings"
+
 func main() {
 	for range []string{} {
-		print("goodbye, earth")
+		print(strings.Str)
 	}
 }
