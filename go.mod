@@ -1,3 +1,3 @@
-module github.com/cameronbrill/go-project-template
+module github.com/cameronbrill/graphite-demo
 
 go 1.18
