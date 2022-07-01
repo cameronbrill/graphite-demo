@@ -1,7 +1,9 @@
 package main
 
+import "github.com/cameronbrill/graphite-demo/strings"
+
 func main() {
-	for i := range []string{} {
-		print(i)
+	for _, i := range []string{} {
+		print(strings.Upper(i))
 	}
 }
