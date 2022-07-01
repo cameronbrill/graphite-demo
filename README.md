@@ -17,7 +17,7 @@ gt upstack restack
 * resolve conflicts *
 gt stack submit
 ```
-observe merge conflicts are gone on both graphite PRs.
+- observe merge conflicts are gone on both graphite PRs.
 
 - update the vanilla PRs:
 ```
@@ -30,4 +30,4 @@ git rebase update-two-point-five
 * resolve conflicts again *
 git push --force
 ```
-observe merge conflicts are gone on the two regular PRs
+- observe merge conflicts are gone on the two regular PRs
