@@ -11,7 +11,7 @@ demoing graphite.dev to my team.
 - open [#5](https://github.com/cameronbrill/graphite-demo/pull/5), merge it
 - update the graphite PRs:
 ```
-gt branch co update-two
+gt branch checkout update-two
 gt repo sync
 gt upstack restack
 * resolve conflicts *
