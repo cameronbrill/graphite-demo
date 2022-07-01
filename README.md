@@ -1,9 +1,33 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/cameronbrill/go-project-template)](https://goreportcard.com/report/github.com/cameronbrill/go-project-template)
 [![GoDoc](https://godoc.org/github.com/cameronbrill/go-project-template?status.svg)](https://godoc.org/github.com/cameronbrill/go-project-template)
 
-# go project template
-Contains common things that I add to all of my go projects.
+# graphite demo
+demoing graphite.dev to my team.
 
 
-### considerations
-please don't index code functionality by branch name. I do it here just to play around with things, but when you make an update to `main`, propogating that to every other branch is potentially a massive pain.
+### steps
+- open [#1](https://github.com/cameronbrill/graphite-demo/pull/1) and [#2](https://github.com/cameronbrill/graphite-demo/pull/2) in graphite
+- open [#3](https://github.com/cameronbrill/graphite-demo/pull/3) and [#4](https://github.com/cameronbrill/graphite-demo/pull/4) in github new tabs
+- open [#5](https://github.com/cameronbrill/graphite-demo/pull/5), merge it
+- update the graphite PRs:
+```
+gt branch co update-two
+gt repo sync
+gt upstack restack
+* resolve conflicts *
+gt stack submit
+```
+observe merge conflicts are gone on both graphite PRs.
+
+- update the vanilla PRs:
+```
+git checkout update-one-point-five
+git rebase main
+* resolve conflicts *
+git push --force
+git checkout update-two-point-five
+git rebase update-two-point-five
+* resolve conflicts again *
+git push --force
+```
+observe merge conflicts are gone on the two regular PRs
