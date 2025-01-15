@@ -11,11 +11,11 @@ demoing graphite.dev to my team.
 - open [#7](https://github.com/cameronbrill/graphite-demo/pull/7), merge it
 - update the graphite PRs:
 ```
-gt branch checkout update-two
-gt repo sync
-gt upstack restack
+gt co update-two
+gt sync
+gt restack
 * resolve conflicts *
-gt stack submit
+gt s
 ```
 - observe merge conflicts are gone on both graphite PRs.
 
