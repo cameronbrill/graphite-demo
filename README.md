@@ -8,7 +8,7 @@ demoing graphite.dev to my team.
 ### steps
 - open [#1](https://github.com/cameronbrill/graphite-demo/pull/1) and [#2](https://github.com/cameronbrill/graphite-demo/pull/2) in graphite
 - open [#3](https://github.com/cameronbrill/graphite-demo/pull/3) and [#4](https://github.com/cameronbrill/graphite-demo/pull/4) in github new tabs
-- open [#5](https://github.com/cameronbrill/graphite-demo/pull/5), merge it
+- open [#7](https://github.com/cameronbrill/graphite-demo/pull/7), merge it
 - update the graphite PRs:
 ```
 gt branch checkout update-two
