@@ -13,21 +13,26 @@ demoing graphite.dev to my team.
 ```
 gt co main
 gt sync
+gt co print-single-hello-world
 gt restack
 * resolve conflicts *
 gt s
 ```
-- observe merge conflicts are gone on both graphite PRs.
+- observe merge conflicts are gone on the graphite PRs.
 
 - update the vanilla PRs:
 ```
-git checkout update-one-point-five
+git checkout print-single-hello-world-2
 git rebase main
 * resolve conflicts *
 git push --force
-git checkout update-two-point-five
-git rebase update-two-point-five
+git checkout upgrade-print-function-2
+git rebase print-single-hello-world-2
+* resolve conflicts again *
+git push --force
+git checkout print-num-input-2
+git rebase upgrade-print-function-2
 * resolve conflicts again *
 git push --force
 ```
-- observe merge conflicts are gone on the two regular PRs
+- observe merge conflicts are gone on the three regular PRs
