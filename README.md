@@ -6,12 +6,12 @@ demoing graphite.dev to my team.
 
 
 ### steps
-- open [#11](https://github.com/cameronbrill/graphite-demo/pull/11) and [#12](https://github.com/cameronbrill/graphite-demo/pull/12) in graphite
 - open [#8](https://github.com/cameronbrill/graphite-demo/pull/8), [#9](https://github.com/cameronbrill/graphite-demo/pull/9), [#10](https://github.com/cameronbrill/graphite-demo/pull/10) in graphite
-- open [#7](https://github.com/cameronbrill/graphite-demo/pull/7), merge it
+- open [#13](https://github.com/cameronbrill/graphite-demo/pull/13), [#14](https://github.com/cameronbrill/graphite-demo/pull/14), [#15](https://github.com/cameronbrill/graphite-demo/pull/15) in github
+- open [#11](https://github.com/cameronbrill/graphite-demo/pull/11) and [#12](https://github.com/cameronbrill/graphite-demo/pull/12) in graphite. merge them.
 - update the graphite PRs:
 ```
-gt co update-two
+gt co main
 gt sync
 gt restack
 * resolve conflicts *
