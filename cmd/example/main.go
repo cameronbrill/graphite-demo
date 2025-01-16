@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	for i := range []string{} {
+	for i := 0; i < 10; i++ {
 		print(i)
 	}
 }
